@@ -1,0 +1,19 @@
+@import './constants.scss';
+
+.button {
+  background: $blue-faded;
+  border: unset;
+  border-radius: 4px;
+  color: $blue;
+  cursor: pointer;
+  font-weight: 800;
+  margin: 5px;
+  outline: none;
+  padding: 7px 20px;
+  transition: background 250ms, color 250ms;
+
+  &:hover {
+    background: $blue;
+    color: $blue-faded;
+  }
+}
