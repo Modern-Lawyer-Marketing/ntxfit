@@ -1,12 +1,13 @@
 import React from 'react';
 import './styles/app.scss';
+import Home from './pages/Home';
 
 /**
  * App
  */
 const App = () => (
   <div className="app">
-    <p>NTXFIT</p>
+    <Home />
   </div>
 );
 

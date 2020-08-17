@@ -1,7 +1,29 @@
+@import './constants.scss';
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 1000;
+  src: url(../fonts/Avenir-Black.ttf);
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 800;
+  src: url(../fonts/Avenir-Heavy.ttf);
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 600;
+  src: url(../fonts/Avenir-Medium.ttf);
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 400;
+  src: url(../fonts/Avenir-Book.ttf);
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  color: $black;
+  font-family: 'Avenir', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
