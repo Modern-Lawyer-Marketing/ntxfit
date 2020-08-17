@@ -5,7 +5,7 @@ import '../styles/button.scss';
  * Reusable button component
  */
 const Button = ({ children }) => (
-  <a className="button" type="button">
+  <a href="/" className="button" type="button">
     <span>{children}</span>
   </a>
 );
