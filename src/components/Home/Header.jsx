@@ -9,9 +9,9 @@ const Header = () => (
     <Navbar />
     <div className="background-image">
       <div className="content">
-        <p className="pretitle">NORTH TEXAS</p>
-        <h1 className="title">Families In Transition Professionals</h1>
-        <h2>Encouraging Healthy Families</h2>
+        <p className="pretitle">North Texas</p>
+        <h1 className="title">Families In Transition</h1>
+        <h2>Professionals Encouraging Healthy Families</h2>
       </div>
     </div>
   </div>
