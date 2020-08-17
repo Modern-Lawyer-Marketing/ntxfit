@@ -9,8 +9,8 @@ const Footer = () => (
     <div className="section">
       <ul>
         <li>Home</li>
-        <li>Events</li>
         <li>Who We Are</li>
+        <li>Events</li>
         <li>Resources</li>
       </ul>
       <p>© 2020 NTXFIT</p>
