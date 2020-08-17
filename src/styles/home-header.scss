@@ -21,7 +21,8 @@
   }
 
   .content {
-    max-width: $content-width;
+    max-width: $content-max-width;
+    width: $content-width;
     z-index: 1;
 
     .pretitle {
@@ -32,6 +33,10 @@
 
     .title {
       font-weight: 1000;
+    }
+
+    .subtitle {
+      color: $charcoal-700;
     }
   }
 
@@ -55,8 +60,7 @@
       display: flex;
       height: $nav-height;
       justify-content: flex-end;
-      max-width: $content-width;
-      width: 100vw;
+      width: $content-width;
     }
 
     li {
@@ -71,7 +75,7 @@
       padding: 0 20px;
 
       .line {
-        background: $black;
+        background: $charcoal-700;
         height: 1px;
         opacity: 0;
         transition: opacity 250ms;

@@ -13,7 +13,7 @@ const Header = () => (
       <h2>Encouraging Healthy Families</h2>
       <br />
       {/* eslint-disable-next-line max-len */}
-      <p>The North Texas Families in Transition Professionals Workgroup is a volunteer organization of independent licensed professionals who practice around the metroplex. Our members specialize in working with families dealing with separation, divorce, co-parenting, and other situations involving raising children between multiple homes.</p>
+      <p className="subtitle">The North Texas Families in Transition Professionals Workgroup is a volunteer organization of independent licensed professionals who practice around the metroplex. Our members specialize in working with families dealing with separation, divorce, co-parenting, and other situations involving raising children between multiple homes.</p>
     </div>
   </div>
 );

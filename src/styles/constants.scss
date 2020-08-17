@@ -1,6 +1,11 @@
-$content-width: 800px;
+$content-width: calc(100vw - 80px);
+$content-max-width: 800px;
+
+$nav-height: 75px;
 
 // COLORS
-$black: #313131;
 $blue: #246bdf;
-$nav-height: 75px;
+
+$charcoal-800: #313131;
+$charcoal-700: #484848;
+$charcoal-400: #a0a0a0;

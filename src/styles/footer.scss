@@ -1,0 +1,27 @@
+@import './constants.scss';
+
+.footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+
+  .section {
+    align-items: center;
+    color: $charcoal-400;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin: 30px 0;
+
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+        padding: 0 12px;
+      }
+    }
+  }
+}
