@@ -7,25 +7,19 @@
     background-position: center 60%;
     background-size: cover;
     display: flex;
-    height: calc(380px + #{$nav-height});
+    height: calc(500px + #{$nav-height});
     justify-content: center;
     position: relative;
-
-    &::after {
-      background: rgba(255, 255, 255, 0.6);
-      content: '';
-      display: flex;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
   }
 
 
   .content {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
     margin-top: $nav-height;
     max-width: $content-max-width;
+    padding: 20px 0;
+    text-align: center;
     width: $content-width;
     z-index: 1;
 
