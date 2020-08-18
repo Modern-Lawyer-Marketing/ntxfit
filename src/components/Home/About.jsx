@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/home-about.scss';
+import '../../styles/home/about.scss';
 
 /**
  * About section

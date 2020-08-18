@@ -1,0 +1,19 @@
+@import '../constants.scss';
+
+.home-member-cta {
+  display: flex;
+  justify-content: center;
+
+  .section {
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      color: $charcoal-700;
+      max-width: 550px;
+      padding: 15px 0;
+      text-align: center;
+    }
+  }
+}

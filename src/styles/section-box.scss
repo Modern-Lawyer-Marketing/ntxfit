@@ -1,0 +1,23 @@
+@import './constants.scss';
+
+.section-box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+  .box {
+    background: $charcoal-300;
+    border-radius: 4px;
+    max-width: $content-max-width;
+    padding: 60px 80px;
+    width: $content-width;
+
+    &.center {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
