@@ -20,4 +20,10 @@
       justify-content: center;
     }
   }
+
+  &.mobile {
+    .box {
+      padding: 60px 30px;
+    }
+  }
 }
