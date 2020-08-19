@@ -77,21 +77,6 @@ const memberList = [
     ],
   },
   {
-    name:     'Christy Bradshaw',
-    image:    null,
-    license:  'License',
-    website:  'Website',
-    email:    'Email',
-    phone:    'Phone',
-    services: [
-      'Service 1',
-      'Service 2',
-      'Service 3',
-      'Service 4',
-      'Service 5',
-    ],
-  },
-  {
     name:     'Holly Duke',
     image:    null,
     license:  'License',

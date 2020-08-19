@@ -1,6 +1,50 @@
 @import '../constants.scss';
 
-.home-about {
+.about {
+  align-items: center;
   display: flex;
+  flex-flow: column;
   justify-content: center;
+  
+  .section {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+
+    .content {
+      h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 15px;
+      }
+    }
+
+    img {
+      margin-right: 50px;
+      width: 40%;
+    }
+
+    &.flip {
+      flex-flow: row-reverse;
+
+      img {
+        margin-left: 50px;
+      }
+    }
+
+    &.mobile {
+      flex-flow: column;
+
+      img {
+        margin: 0 0 40px;
+        max-width: 300px;
+        width: 100%;
+      }
+    }
+  }
 }

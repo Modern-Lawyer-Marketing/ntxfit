@@ -6,7 +6,7 @@ import Header from '../components/Header';
  */
 const Events = () => (
   <div className="events">
-    <Header short backgroundImage={require('../images/members-header.jpg')} backgroundPosition="right">
+    <Header short backgroundImage={require('../images/events-header.jpg')} backgroundPosition="right 60%">
       <h1>Events</h1>
     </Header>
   </div>
