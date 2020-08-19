@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
 import '../../styles/members/about.scss';
-import SectionBox from '../SectionBox';
 
 /**
  * About section
