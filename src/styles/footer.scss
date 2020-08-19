@@ -16,6 +16,10 @@
     ul {
       display: flex;
 
+      &.mobile {
+        display: block;
+      }
+
       li {
         list-style: none;
         padding: 0 12px;
