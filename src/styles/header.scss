@@ -1,9 +1,8 @@
-@import '../constants.scss';
+@import './constants.scss';
 
-.home-header {
+.header {
   .background-image {
     align-items: center;
-    background: url('../../images/home-header.jpg');
     background-position: center 60%;
     background-size: cover;
     display: flex;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Home/Header';
+import Header from '../components/Header';
 import MemberCTA from '../components/Home/MemberCTA';
 import About from '../components/Home/About';
 
@@ -8,7 +8,11 @@ import About from '../components/Home/About';
  */
 const Home = () => (
   <div className="home">
-    <Header />
+    <Header backgroundImage={require('../images/home-header.jpg')}>
+      <p>North Texas</p>
+      <h1>Families In Transition</h1>
+      <h2>Professionals Encouraging Healthy Families</h2>
+    </Header>
     <About />
     <MemberCTA />
   </div>
