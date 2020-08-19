@@ -6,7 +6,7 @@ import Header from '../components/Header';
  */
 const Resources = () => (
   <div className="resources">
-    <Header backgroundImage={require('../images/members-header.jpg')} backgroundPosition="right">
+    <Header short backgroundImage={require('../images/members-header.jpg')} backgroundPosition="right">
       <h1>Resources</h1>
     </Header>
   </div>

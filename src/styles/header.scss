@@ -35,11 +35,13 @@
     }
   }
 
-  &.mobile {
+  &.short {
     .background-image {
       height: calc(350px + #{$nav-height});
     }
+  }
 
+  &.mobile {
     .content {
       padding: 20px;
 
