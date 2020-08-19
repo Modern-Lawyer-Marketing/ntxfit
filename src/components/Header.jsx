@@ -5,12 +5,18 @@ import useWindowDimensions from '../lib/useWindowDimensions';
 /**
  * Header
  */
-const Header = ({ backgroundImage, children }) => {
+const Header = ({ backgroundImage, backgroundPosition, children }) => {
   const { isMobile } = useWindowDimensions();
 
   return (
     <div className={`header ${isMobile ? 'mobile' : ''}`}>
-      <div className="background-image" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div
+        className="background-image"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundPosition,
+        }}
+      >
         <div className="content">
           {children}
         </div>

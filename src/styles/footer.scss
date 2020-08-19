@@ -5,6 +5,11 @@
   justify-content: center;
   width: 100vw;
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
   .section {
     align-items: center;
     color: $charcoal-400;

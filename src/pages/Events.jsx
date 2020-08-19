@@ -4,12 +4,12 @@ import Header from '../components/Header';
 /**
  * Landing page
  */
-const Members = () => (
-  <div className="members">
+const Events = () => (
+  <div className="events">
     <Header backgroundImage={require('../images/members-header.jpg')} backgroundPosition="right">
-      <h1>Who We Are</h1>
+      <h1>Events</h1>
     </Header>
   </div>
 );
 
-export default Members;
+export default Events;
