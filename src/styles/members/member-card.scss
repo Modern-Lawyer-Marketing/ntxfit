@@ -1,0 +1,39 @@
+@import '../constants';
+
+.member-card {
+  background: $charcoal-300;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 20px;
+
+  .content {
+    font-size: 14px;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    a {
+      text-decoration: none;
+      width: min-content;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .services {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+  }
+
+  .image {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-right: 20px;
+    width: 150px;
+  }
+}
