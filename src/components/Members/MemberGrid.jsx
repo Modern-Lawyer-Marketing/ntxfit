@@ -1,14 +1,15 @@
 import React from 'react';
 import '../../styles/members/member-grid.scss';
 import MemberCard from './MemberCard';
+import memberList from '../../lib/memberList';
 
 /**
  * About section
  */
-const MemberGrid = ({ list }) => (
+const MemberGrid = () => (
   <div className="member-grid">
     <div className="section">
-      {list.map((val) => (<MemberCard {...val} />))}
+      {memberList.map((val) => (<MemberCard {...val} />))}
     </div>
   </div>
 );
