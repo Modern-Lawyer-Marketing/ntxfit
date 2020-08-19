@@ -42,7 +42,7 @@ const Navbar = ({ location }) => {
   }, [isMobile]);
 
   return (
-    <div id="navbar">
+    <div id="navbar" className={open ? 'open' : ''}>
       <a className="logo" href="/"><h2>NTXFIT</h2></a>
       {isMobile
         ? <Hamburger hamburger={hamburger} open={open} setOpen={setOpen} />
