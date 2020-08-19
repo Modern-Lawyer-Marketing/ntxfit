@@ -25,6 +25,7 @@
     "jsx-a11y/no-noninteractive-element-interactions": "off",
     "global-require": "off",
     "radix": "off",
+    "react/button-has-type": "off",
     "key-spacing": [
       "error",
       {
