@@ -67,20 +67,20 @@ const Hamburger = ({ open, setOpen, hamburger }) => (
  * Mobile menu, opened when pressing hamburger
  */
 const HamburgerMenu = ({ open, hamburgerMenu, path, setOpen }) => (
-  <div id="hamburger-menu" ref={hamburgerMenu} className={open ? 'open' : ''}>
-    <NavItems path={path} setOpen={setOpen} />
+  <div id="hamburger-menu" ref={hamburgerMenu} className={open ? 'open' : 'closed'}>
+    <NavItems path={path} setOpen={setOpen} open={open} />
   </div>
 );
 
 /**
  * Navigation items
  */
-const NavItems = ({ path, setOpen }) => (
+const NavItems = ({ path, setOpen, open }) => (
   <ul id="nav-items">
-    <Link onClick={() => setOpen(false)} to="/"><li className={path === '/' ? 'active' : ''}><p>Home</p><div className="line" /></li></Link>
-    <Link onClick={() => setOpen(false)} to="/who-we-are"><li className={path === '/who-we-are' ? 'active' : ''}><p>Who We Are</p><div className="line" /></li></Link>
-    <Link onClick={() => setOpen(false)} to="/events"><li className={path === '/events' ? 'active' : ''}><p>Events</p><div className="line" /></li></Link>
-    <Link onClick={() => setOpen(false)} to="/resources"><li className={path === '/resources' ? 'active' : ''}><p>Resources</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/"><li className={path === '/' ? 'active' : ''}><p>Home</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/who-we-are"><li className={path === '/who-we-are' ? 'active' : ''}><p>Who We Are</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/events"><li className={path === '/events' ? 'active' : ''}><p>Events</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/resources"><li className={path === '/resources' ? 'active' : ''}><p>Resources</p><div className="line" /></li></Link>
   </ul>
 );
 

@@ -80,9 +80,14 @@
     border: 0;
     cursor: pointer;
     outline: none;
+    padding: 5px;
     position: fixed;
     right: 50px;
     z-index: 10;
+
+    &:focus {
+      outline: 5px auto -webkit-focus-ring-color;
+    }
 
     .line {
       background: $charcoal-700;
@@ -124,6 +129,10 @@
     
     &.open {
       clip: rect(0, $hamburger-menu-width, 100vh, 0);
+    }
+
+    &.closed {
+      opacity: 0;
     }
 
     #nav-items {
