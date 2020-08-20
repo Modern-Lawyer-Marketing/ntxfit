@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/navbar.scss';
 import { Link, withRouter } from 'react-router-dom';
@@ -56,7 +57,7 @@ const Navbar = ({ location }) => {
  * Hamburger button
  */
 const Hamburger = ({ open, setOpen, hamburger }) => (
-  <button ref={hamburger} onClick={() => setOpen(!open)} id="hamburger">
+  <button ref={hamburger} type="button" onClick={() => setOpen(!open)} id="hamburger">
     <div className={`line ${open && 'open'}`} />
     <div className={`line ${open && 'open'}`} />
     <div className={`line ${open && 'open'}`} />
@@ -68,19 +69,19 @@ const Hamburger = ({ open, setOpen, hamburger }) => (
  */
 const HamburgerMenu = ({ open, hamburgerMenu, path, setOpen }) => (
   <div id="hamburger-menu" ref={hamburgerMenu} className={open ? 'open' : 'closed'}>
-    <NavItems path={path} setOpen={setOpen} open={open} />
+    <NavItems hamburger path={path} setOpen={setOpen} open={open} />
   </div>
 );
 
 /**
  * Navigation items
  */
-const NavItems = ({ path, setOpen, open }) => (
+const NavItems = ({ path, setOpen, open, hamburger }) => (
   <ul id="nav-items">
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/"><li className={path === '/' ? 'active' : ''}><p>Home</p><div className="line" /></li></Link>
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/who-we-are"><li className={path === '/who-we-are' ? 'active' : ''}><p>Who We Are</p><div className="line" /></li></Link>
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/events"><li className={path === '/events' ? 'active' : ''}><p>Events</p><div className="line" /></li></Link>
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={open ? '0' : '-1'} to="/resources"><li className={path === '/resources' ? 'active' : ''}><p>Resources</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/"><li className={path === '/' ? 'active' : ''}><p>Home</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/who-we-are"><li className={path === '/who-we-are' ? 'active' : ''}><p>Who We Are</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/events"><li className={path === '/events' ? 'active' : ''}><p>Events</p><div className="line" /></li></Link>
+    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/resources"><li className={path === '/resources' ? 'active' : ''}><p>Resources</p><div className="line" /></li></Link>
   </ul>
 );
 
