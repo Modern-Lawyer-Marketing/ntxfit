@@ -1,0 +1,34 @@
+@import '../constants';
+
+.get-notified {
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
+
+  .input-group {
+    label {
+      margin-left: 7px;
+    }
+  }
+
+  .button {
+    background: $blue-faded !important;
+    border: unset !important;
+    border-radius: 4px !important;
+    color: $blue !important;
+    cursor: pointer !important;
+    font-weight: 800 !important;
+    outline: none !important;
+    text-decoration: none !important;
+    transition: background 250ms, color 250ms !important;
+  
+    &:hover,
+    &:focus {
+      background: $blue !important;
+      color: $blue-faded !important;
+    }
+  }
+}
