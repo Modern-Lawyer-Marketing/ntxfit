@@ -39,6 +39,10 @@
     .background-image {
       height: calc(350px + #{$nav-height});
     }
+
+    .content {
+      max-width: 520px;
+    }
   }
 
   &.mobile {
