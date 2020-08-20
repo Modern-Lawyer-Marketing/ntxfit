@@ -9,7 +9,7 @@ import GetNotified from '../components/Events/GetNotified';
  */
 const Events = () => (
   <div className="events">
-    <Header short backgroundImage={require('../images/events-header.jpg')} backgroundPosition="right 60%">
+    <Header short backgroundImage={require('../images/conference.jpg')} backgroundPosition="right 60%">
       <h1>Events</h1>
     </Header>
     <UpcomingEvents />

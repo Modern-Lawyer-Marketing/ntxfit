@@ -39,7 +39,7 @@ const About = () => {
       </div>
 
       <div className={`section ${isMobile ? 'mobile' : ''}`}>
-        <img src={require('../../images/baseball-glove.png')} alt="baseball glove" />
+        <img src={require('../../images/pen-and-paper.jpg')} alt="pen and paper" />
         <div className="content">
           <h2>Why We Created NTXFIT</h2>
           <p>A limited number of professionals gathered to serve as resources to each other and to the professional community to contribute to the expertise in the field of family law litigation as mental health professionals.   As leaders teaching others how to do forensic work, NTXFIT continues to offer twice a year advanced trainings to encourage other mental health professionals to accept cases involving litigation.   We also encourage other professionals to form their own organizations for similar purpose as has been done by a group of professionals who formed THETAFF.</p>

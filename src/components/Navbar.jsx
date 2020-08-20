@@ -1,4 +1,3 @@
-/* eslint-disable no-nested-ternary */
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/navbar.scss';
 import { Link, withRouter } from 'react-router-dom';
@@ -76,12 +75,106 @@ const HamburgerMenu = ({ open, hamburgerMenu, path, setOpen }) => (
 /**
  * Navigation items
  */
-const NavItems = ({ path, setOpen, open, hamburger }) => (
-  <ul id="nav-items">
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/"><li className={path === '/' ? 'active' : ''}><p>Home</p><div className="line" /></li></Link>
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/who-we-are"><li className={path === '/who-we-are' ? 'active' : ''}><p>Who We Are</p><div className="line" /></li></Link>
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/events"><li className={path === '/events' ? 'active' : ''}><p>Events</p><div className="line" /></li></Link>
-    <Link onClick={() => { setOpen(false); window.scroll(0, 0); }} tabIndex={!open && hamburger ? '-1' : null} to="/resources"><li className={path === '/resources' ? 'active' : ''}><p>Resources</p><div className="line" /></li></Link>
+const NavItems = ({ path, setOpen, open, hamburger }) => {
+  const [dropdown, setDropdown] = useState();
+  const dropdownRef = useRef();
+  const resourceRef = useRef();
+
+  useEffect(() => {
+    /**
+     * Checks if user clicked outside hamburger menu
+     */
+    function hasClickedOutside(e) {
+      if (!dropdownRef.current.contains(e.target) && !resourceRef.current.contains(e.target)) {
+        setDropdown(false);
+        document.removeEventListener('click', hasClickedOutside, true);
+      }
+    }
+
+    if (dropdown) {
+      document.addEventListener('click', hasClickedOutside, true);
+    }
+
+    return () => {
+      document.removeEventListener('click', hasClickedOutside, true);
+    };
+  }, [dropdown]);
+
+  /**
+   * Closes hamburger menu, scrolls to top, and closes dropdowns
+   */
+  function onClickLink() {
+    setOpen(false);
+    window.scroll(0, 0);
+    setDropdown(false);
+  }
+
+  return (
+    <ul id="nav-items">
+      <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/">
+        <li className={path === '/' ? 'active' : ''}>
+          <p>Home</p>
+          <div className="line" />
+        </li>
+      </Link>
+      <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/who-we-are">
+        <li className={path === '/who-we-are' ? 'active' : ''}>
+          <p>Who We Are</p>
+          <div className="line" />
+        </li>
+      </Link>
+      <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/events">
+        <li className={path === '/events' ? 'active' : ''}>
+          <p>Events</p>
+          <div className="line" />
+        </li>
+      </Link>
+      <button ref={resourceRef} type="button" onClick={() => { setDropdown(!dropdown); }}>
+        <li className={path === '/resources' ? 'active' : ''}>
+          <p>Resources <span className={dropdown ? '' : 'rotate'}>⌄</span></p>
+          <div className="line" />
+        </li>
+      </button>
+
+      {dropdown
+      && (
+      <ResourceMenu
+        onClickLink={onClickLink}
+        dropdownRef={dropdownRef}
+        setOpen={setOpen}
+        open={open}
+        hamburger={hamburger}
+      />
+      )}
+    </ul>
+  );
+};
+
+/**
+ * Dropdown menu for resources
+ */
+const ResourceMenu = ({ open, hamburger, dropdownRef, onClickLink }) => (
+  <ul ref={dropdownRef} className={`resources-menu ${hamburger ? 'hamburger' : ''}`}>
+    <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/professional-standards-and-guidelines">
+      <li>
+        <p>Professional Standards and Guidelines</p>
+      </li>
+    </Link>
+    <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/books-and-articles-by-members-of-ntxfit">
+      <li>
+        <p>Books and Articles by Members of NTXFIT</p>
+      </li>
+    </Link>
+    <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/handouts-for-professionals">
+      <li>
+        <p>Handouts for Professionals</p>
+      </li>
+    </Link>
+    <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/handouts-for-families">
+      <li>
+        <p>Handouts for Families</p>
+      </li>
+    </Link>
   </ul>
 );
 

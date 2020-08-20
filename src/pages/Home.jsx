@@ -8,7 +8,7 @@ import About from '../components/Home/About';
  */
 const Home = () => (
   <div className="home">
-    <Header backgroundImage={require('../images/home-header.jpg')} backgroundPosition="60% 60%">
+    <Header backgroundImage={require('../images/plant.jpg')} backgroundPosition="60% 60%">
       <p>North Texas</p>
       <h1>Families In Transition</h1>
       <h2>Professionals Encouraging Healthy Families</h2>

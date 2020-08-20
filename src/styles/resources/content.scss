@@ -19,4 +19,18 @@
       margin-top: 8px;
     }
   }
+
+  &.content-item {
+    .section {
+      max-width: 1000px;
+
+      .box {
+        max-width: 1000px;
+      }
+
+      ul {
+        font-size: inherit;
+      }
+    }
+  }
 }

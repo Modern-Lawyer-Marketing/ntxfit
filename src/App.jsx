@@ -9,7 +9,11 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Members from './pages/Members';
 import Events from './pages/Events';
-import Resources from './pages/Resources';
+import Resources from './pages/Resources/Resources';
+import Books from './pages/Resources/Books';
+import HandoutsFamilies from './pages/Resources/HandoutsFamilies';
+import HandoutsProfessionals from './pages/Resources/HandoutsProfessionals';
+import Professionals from './pages/Resources/Professionals';
 
 /**
  * App
@@ -24,6 +28,18 @@ const App = () => (
         </Route>
         <Route path="/events">
           <Events />
+        </Route>
+        <Route path="/resources/professional-standards-and-guidelines">
+          <Professionals />
+        </Route>
+        <Route path="/resources/books-and-articles-by-members-of-ntxfit">
+          <Books />
+        </Route>
+        <Route path="/resources/handouts-for-professionals">
+          <HandoutsProfessionals />
+        </Route>
+        <Route path="/resources/handouts-for-families">
+          <HandoutsFamilies />
         </Route>
         <Route path="/resources">
           <Resources />
