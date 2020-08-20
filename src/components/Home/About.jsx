@@ -15,7 +15,7 @@ const About = () => {
         <img src={require('../../images/raincoats.jpg')} alt="family" />
         <div className="content">
           <h2>We Value Families</h2>
-          <p>As professionals working with families, we know it is difficult for parents and children during separation and divorce.  Each professional in NTXFIT is an expert in parent functioning and the emotional functioning of parents and children.  Each professional in NTXFIT is an independent practitioner who relies on relevant research and best practices and standards specializing in serving different roles to benefit families that include:</p>
+          <p>As professionals working with families, we know it is difficult for parents and children during separation and divorce.  Each professional in North Texas Families in Transition (NTXFIT) is an expert in parent functioning and the emotional functioning of parents and children.  Each professional in NTXFIT is an independent practitioner who relies on relevant research and best practices and standards specializing in serving different roles to benefit families that include:</p>
           <ul>
             <li>Child Custody Evaluations</li>
             <li>Psychological Evaluations</li>
