@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="about">
       <div className={`section ${isMobile ? 'mobile' : ''}`}>
-        <img src={require('../../images/baseball-glove.png')} alt="family" />
+        <img src={require('../../images/families.jpg')} alt="family" />
         <div className="content">
           <h2>We Value Families</h2>
           <p>As professionals working with families, we know it is difficult for parents and children during separation and divorce.  Each professional in NTXFIT is an expert in parent functioning and the emotional functioning of parents and children.  Each professional in NTXFIT is an independent practitioner who relies on relevant research and best practices and standards specializing in serving different roles to benefit families that include:</p>
@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <div className={`section flip ${isMobile ? 'mobile' : ''}`}>
-        <img src={require('../../images/baseball-glove.png')} alt="experience" />
+        <img src={require('../../images/experience.jpg')} alt="experience" />
         <div className="content">
           <h2>Experience Matters</h2>
           <p>Each of the professionals in NTXFIT is highly trained and experienced in working with families involved in litigation.   Individuals in NTXFIT contribute to the knowledge base of other mental health providers and family law attorneys by publishing in peer-reviewed literature, speaking at national conferences, training other providers locally, television news interviews, and serving as a resource for other professionals.  Each professional in NTXFIT demonstrates integrity, compassion, and leadership in the DFW community and to the profession of mental health providers.</p>
