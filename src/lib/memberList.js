@@ -1,6 +1,6 @@
 const memberList = [
   {
-    name:     'Susan Fletcher, Ph. D.',
+    name:     'Susan Fletcher, Ph.D.',
     image:    require('../images/headshots/susan-fletcher.jpeg'),
     license:  'Licensed Psychologist',
     website:  'FletcherPhD.com',

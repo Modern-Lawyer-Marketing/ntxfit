@@ -1,0 +1,22 @@
+@import '../constants';
+
+.resources-content {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  .section {
+    max-width: 880px;
+
+    .box {
+      max-width: 880px;
+    }
+
+    ul {
+      font-size: 14px;
+      margin-left: 20px;
+      margin-top: 8px;
+    }
+  }
+}
