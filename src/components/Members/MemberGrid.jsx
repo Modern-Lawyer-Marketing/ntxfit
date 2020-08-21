@@ -9,7 +9,7 @@ import memberList from '../../lib/memberList';
 const MemberGrid = () => (
   <div className="member-grid">
     <div className="section">
-      {memberList.map((val) => (<MemberCard {...val} />))}
+      {memberList.map((val, i) => (<MemberCard key={val.name + i} {...val} />))}
     </div>
   </div>
 );

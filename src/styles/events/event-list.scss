@@ -3,9 +3,15 @@
 .event-list {
   display: flex;
   justify-content: center;
-
+  
   .section-box {
     margin: 20px 0 0;
+
+    .box {
+      max-height: 840px;
+      overflow-y: scroll;
+      padding: 40px;
+    }
 
     .quiet {
       text-align: center;

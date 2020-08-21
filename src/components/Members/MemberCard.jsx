@@ -16,7 +16,7 @@ const MemberCard = ({ name, image, license, email, website, phone, services }) =
       <p>Phone: <a href={`tel:${phone.replace(/[-\s]/g, '')}`}>{phone}</a></p>
       <p>Services:</p>
       <ul className="services">
-        {services.map((val) => (<li>{val}</li>))}
+        {services.map((val, i) => (<li key={val + i}>{val}</li>))}
       </ul>
     </div>
   </div>

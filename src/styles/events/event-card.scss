@@ -1,14 +1,46 @@
 @import '../constants';
 
 .event-card {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  // border-bottom: 2px solid #e7eaee;
   color: inherit;
   display: flex;
+  margin: 15px 0;
+  padding: 10px;
   text-decoration: none;
+  
+  .content {
+    display: flex;
+    flex-flow: column;
+    font-size: 16px;
+    justify-content: space-between;
+    
+    h3 {
+      font-size: 18px;
+    }
+
+    a {
+      width: max-content;
+    }
+
+    .date {
+      color: $charcoal-400;
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+  }
 
   .logo {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
     margin-right: 20px;
-    width: 100px;
-  } 
+    max-height: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    min-width: 140px;
+  }
 }
