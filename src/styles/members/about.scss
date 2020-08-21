@@ -4,4 +4,9 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  text-align: center;
+
+  .section {
+    max-width: 1000px;
+  }
 }

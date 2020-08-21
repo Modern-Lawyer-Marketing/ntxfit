@@ -162,7 +162,7 @@ const ResourceMenu = ({ open, hamburger, dropdownRef, onClickLink }) => (
     </Link>
     <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/books-and-articles-by-members-of-ntxfit">
       <li>
-        <p>Books and Articles by Members of NTXFIT</p>
+        <p>Resources by Members of NTXFIT</p>
       </li>
     </Link>
     <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/handouts-for-professionals">

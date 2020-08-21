@@ -1,6 +1,6 @@
 const memberList = [
   {
-    name:     'Susan Fletcher, Ph.D.',
+    name:     'Susan Fletcher, PhD',
     image:    require('../images/headshots/susan-fletcher.jpeg'),
     license:  'Licensed Psychologist',
     website:  'FletcherPhD.com',
@@ -17,7 +17,7 @@ const memberList = [
     ],
   },
   {
-    name:     'Christy Schmidt',
+    name:     'Christy Bradshaw Schmidt, LPC',
     image:    require('../images/headshots/christy-schmidt.jpg'),
     license:  'License',
     website:  'Website',

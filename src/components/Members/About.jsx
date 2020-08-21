@@ -8,7 +8,7 @@ import '../../styles/members/about.scss';
 const About = () => (
   <div className="members-about">
     <div className="section">
-      <p>Having worked on different aspects of cases over the years, we are committed to supporting diverse interventions to assist parents and children alike. As a group, we focus primarily on highlighting best practice information and growing professional services to better serve the community.</p>
+      <p>Having worked on different aspects of cases over the years, we are committed to supporting diverse interventions to assist parents and children. NTXFIT focuses on highlighting best practices and growing professional services to better serve the community.</p>
     </div>
   </div>
 );

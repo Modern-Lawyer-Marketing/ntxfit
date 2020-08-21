@@ -30,7 +30,7 @@ const Events = () => {
   return (
     <div className="events">
       <Header short backgroundImage={require('../images/conference.jpg')} backgroundPosition="right 60%">
-        <h1>Events</h1>
+        <h1>Events for Professionals</h1>
       </Header>
       <UpcomingEvents events={events} />
       <PastEvents events={events} />
