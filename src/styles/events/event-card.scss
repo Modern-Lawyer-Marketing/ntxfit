@@ -43,4 +43,13 @@
     min-height: 80px;
     min-width: 140px;
   }
+
+  &.mobile {
+    flex-flow: column;
+
+    .logo {
+      background-position: left;
+      margin: 0 0 10px;
+    }
+  }
 }
