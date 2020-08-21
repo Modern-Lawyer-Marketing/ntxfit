@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import UpcomingEvents from '../components/Events/UpcomingEvents';
 import PastEvents from '../components/Events/PastEvents';
-import GetNotified from '../components/Events/GetNotified';
 import Navigation from '../components/Events/Navigation';
 import About from '../components/Events/About';
 
