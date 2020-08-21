@@ -12,24 +12,20 @@ const Events = () => {
   const [events, setEvents] = useState();
 
   useEffect(() => {
-    if (!events) {
-      const request = new XMLHttpRequest();
+    const request = new XMLHttpRequest();
 
-      request.open('GET', `https://www.eventbriteapi.com/v3/organizations/${process.env.REACT_APP_ORGANIZATION_ID}/events/`);
+    request.open('GET', `https://www.eventbriteapi.com/v3/organizations/${process.env.REACT_APP_ORGANIZATION_ID}/events/`);
 
-      request.setRequestHeader('Authorization', `Bearer ${process.env.REACT_APP_EVENTBRITE_TOKEN}`);
+    request.setRequestHeader('Authorization', `Bearer ${process.env.REACT_APP_EVENTBRITE_TOKEN}`);
 
-      request.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) {
-          setEvents(JSON.parse(this.responseText).events.reverse());
-        }
-      };
+    request.onreadystatechange = function () {
+      if (this.readyState === 4 && this.status === 200) {
+        setEvents(JSON.parse(this.responseText).events.reverse());
+      }
+    };
 
-      request.send();
-    }
+    request.send();
   }, []);
-
-  console.log(events);
 
   return (
     <div className="events">

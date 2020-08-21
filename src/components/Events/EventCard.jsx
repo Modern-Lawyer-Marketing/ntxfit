@@ -12,7 +12,7 @@ const EventCard = ({ name, url, date, logo, register }) => (
         <p className="date">{date}</p>
         <h3>{name}</h3>
       </div>
-      <a href={url}>{register ? 'Register for event' : 'View event'}</a>
+      <a href={url} target="_blank" rel="noopener noreferrer">{register ? 'Register for event' : 'View event'}</a>
     </div>
   </div>
 );
