@@ -8,7 +8,7 @@ import About from '../components/Members/About';
  */
 const Members = () => (
   <div className="members">
-    <Header short backgroundImage={require('../images/blue-couch.jpg')} backgroundPosition="right 40%">
+    <Header short backgroundImage={require('../images/blue-couch.jpg')} backgroundPosition="center 40%">
       <h1>Who We Are</h1>
     </Header>
     <About />
