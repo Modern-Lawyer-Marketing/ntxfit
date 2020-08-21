@@ -10,7 +10,7 @@ const MemberCTA = () => (
       <h2>Who We Are</h2>
       <div>
         {/* eslint-disable-next-line max-len */}
-        <p>North Texas Families in Transition includes mental health professionals, mediators, educators, and other support providers.</p>
+        <p>North Texas Families in Transition (NTXFIT) includes mental health professionals, mediators, educators, and other support providers.</p>
       </div>
     </div>
   </div>
