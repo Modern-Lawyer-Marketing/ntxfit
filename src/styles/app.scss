@@ -93,8 +93,7 @@ ul {
     text-decoration: none;
     transition: background 250ms, color 250ms;
   
-    &:hover,
-    &:focus {
+    &:hover {
       background: $blue;
       color: $blue-faded;
     }

@@ -4,12 +4,15 @@ import Header from '../components/Header';
 import UpcomingEvents from '../components/Events/UpcomingEvents';
 import PastEvents from '../components/Events/PastEvents';
 import GetNotified from '../components/Events/GetNotified';
+import Navigation from '../components/Events/Navigation';
+import About from '../components/Events/About';
 
 /**
  * Landing page
  */
 const Events = () => {
   const [events, setEvents] = useState();
+  const [tab, setTab] = useState('upcoming');
 
   useEffect(() => {
     const request = new XMLHttpRequest();
@@ -32,9 +35,10 @@ const Events = () => {
       <Header short backgroundImage={require('../images/conference.jpg')} backgroundPosition="right 60%">
         <h1>Events for Professionals</h1>
       </Header>
-      <UpcomingEvents events={events} />
-      <PastEvents events={events} />
-      <GetNotified />
+      <About />
+      <Navigation setTab={setTab} tab={tab} />
+      {tab === 'upcoming' && <UpcomingEvents events={events} />}
+      {tab === 'past' && <PastEvents events={events} />}
     </div>
   );
 };

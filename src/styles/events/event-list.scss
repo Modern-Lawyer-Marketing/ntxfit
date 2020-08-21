@@ -3,14 +3,16 @@
 .event-list {
   display: flex;
   justify-content: center;
+
+  .section {
+    margin: 40px 0 0;
+  }
   
   .section-box {
-    margin: 20px 0 0;
+    margin: 0;
+    padding: 0;
 
     .box {
-      max-height: 840px;
-      overflow-x: hidden;
-      overflow-y: scroll;
       padding: 40px;
     }
 

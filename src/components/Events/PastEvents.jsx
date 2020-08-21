@@ -14,7 +14,6 @@ const PastEvents = ({ events }) => {
   return (
     <div className={`event-list ${isMobile ? 'mobile' : ''}`}>
       <div className="section">
-        <h2>Past Events</h2>
         <SectionBox>
           {events && events.map((event) => {
             const date = moment(new Date(event.start.local));
