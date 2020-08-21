@@ -9,7 +9,7 @@ import Header from '../../components/Header';
 const Books = () => (
   <div>
     <Header short backgroundImage={require('../../images/book-staircase.jpg')} backgroundPosition="right 45%">
-      <h1>Books and Articles by Members of NTXFIT</h1>
+      <h1>Books, Articles, and Training by Members of NTXFIT</h1>
     </Header>
     <div className="resources-content content-item">
       <SectionBox>
