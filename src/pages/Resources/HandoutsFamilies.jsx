@@ -38,6 +38,8 @@ const HandoutsFamilies = () => (
           <li><a href="https://www.afccnet.org/Resource-Center/Resources-for-Families/ctl/ViewPamphlet/PamphletID/9/mid/860" target="_blank" rel="noopener noreferrer">Preparing for your Custody Evaluation</a></li>
           <li><a href="https://www.afccnet.org/Resource-Center/Resources-for-Families/ctl/ViewPamphlet/PamphletID/10/mid/860" target="_blank" rel="noopener noreferrer">Understanding the Parenting Coordination Process</a></li>
           <li><a href="https://www.afccnet.org/Resource-Center/Resources-for-Families/ctl/ViewPamphlet/PamphletID/11/mid/860" target="_blank" rel="noopener noreferrer">When Parents Relocate: Moving Away and Long-Distance Parenting</a></li>
+          <li><a href="/documents/Arizonas_Guide_for_Parents_Living_Apart.pdf" target="_blank" rel="noopener noreferrer">Arizona's Guide for Parents Living Apart</a></li>
+          <li><a href="http://www.childreninthemiddle.com/about.htm" target="_blank" rel="noopener noreferrer">Between Two Homes</a> by Bradley Craig, LMSW</li>
         </ul>
       </SectionBox>
     </div>

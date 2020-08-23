@@ -19,7 +19,6 @@ const Professionals = () => (
           <li><a href="http://www.afccnet.org/Portals/0/PublicDocuments/Guidelines/ModelStdsChildCustodyEvalSept2006.pdf" target="_blank" rel="noopener noreferrer">Child Custody Evaluation</a></li>
           <li><a href="http://www.afccnet.org/Portals/0/PublicDocuments/CEFCP/ModelStandardsOfPracticeForFamilyAndDivorceMediation.pdf" target="_blank" rel="noopener noreferrer">Mediation</a></li>
           <li><a href="http://www.afccnet.org/Portals/0/PublicDocuments/Guidelines/Supervised_Visitation_Nework-StandardsFinal7-14-06.pdf" target="_blank" rel="noopener noreferrer">Supervised Visitation</a></li>
-          <li><a href="http://www.cobar.org/index.cfm/ID/226/CITP/Interprofessional-Code/" target="_blank" rel="noopener noreferrer">Guidelines for attorneys and professionals from other areas working together from Colorado</a></li>
         </ul>
       </SectionBox>
     </div>
