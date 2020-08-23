@@ -15,7 +15,7 @@ const memberList = [
     ],
   },
   {
-    name:     'Christy Bradshaw Schmidt',
+    name:     'Christy Bradshaw Schmidt, LPC',
     image:    require('../images/headshots/christy-schmidt.jpg'),
     license:  'Licensed Professional Counselor',
     website:  'txfamilylawforensics.com',
