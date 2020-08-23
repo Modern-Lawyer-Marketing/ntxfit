@@ -22,6 +22,7 @@ const About = () => {
             <li>Reunification Therapy</li>
             <li>Court-ordered counseling</li>
             <li>Parent Facilitation</li>
+            <li>Parenting Coordination</li>
             <li>Collaborative Divorce Services</li>
             <li>Reviewing Testifying Expert</li>
             <li>Expert Witness Services</li>

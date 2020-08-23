@@ -7,7 +7,7 @@ import '../../styles/events/event-navigation.scss';
 const About = () => (
   <div className="events-about">
     <div className="section">
-      <h2>Professional Trainings Available in Februray and October</h2>
+      <h2>Professional Trainings Available in February and October</h2>
       <div>
         {/* eslint-disable-next-line max-len */}
         <p>North Texas Families in Transition provides training twice a year for professionals to encourage more trained professionals to assist families involved in litigation.</p>
