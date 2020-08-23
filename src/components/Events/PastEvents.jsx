@@ -8,7 +8,7 @@ import useWindowDimensions from '../../lib/useWindowDimensions';
 /**
  * Lists upcoming events for NTXFIT
  */
-const PastEvents = ({ events }) => {
+const PastEvents = ({ events, venues }) => {
   const { isMobile } = useWindowDimensions();
 
   return (
@@ -21,9 +21,23 @@ const PastEvents = ({ events }) => {
               const name = event.name.text;
               const logo = event.logo.url;
               const url = event.url;
-              const fromNow = date.format('MMMM Do, YYYY');
+              const dateFormatted = date.format('MMMM Do, YYYY');
+              const venueObj = venues.find(({ id }) => id === event.venue_id);
+              let venue;
+              if (venueObj) {
+                venue = venueObj.name;
+              }
 
-              return <EventCard key={event.id} name={name} logo={logo} url={url} date={fromNow} />;
+              return (
+                <EventCard
+                  key={event.id}
+                  name={name}
+                  venue={venue}
+                  logo={logo}
+                  url={url}
+                  date={dateFormatted}
+                />
+              );
             }
             return null;
           })}

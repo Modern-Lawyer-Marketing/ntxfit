@@ -9,7 +9,7 @@ import useWindowDimensions from '../../lib/useWindowDimensions';
 /**
  * Lists upcoming events for NTXFIT
  */
-const UpcomingEvents = ({ events }) => {
+const UpcomingEvents = ({ events, venues }) => {
   const [none, setNone] = useState(true);
   const { isMobile } = useWindowDimensions();
 
@@ -23,13 +23,28 @@ const UpcomingEvents = ({ events }) => {
               const name = event.name.text;
               const logo = event.logo.url;
               const url = event.url;
-              const start = moment(new Date(event.start.local)).format('ddd, MMM D YYYY, LT ').toUpperCase();
+              const dateFormatted = date.format('ddd, MMMM Do YYYY, LT ');
+              const venueObj = venues.find(({ id }) => id === event.venue_id);
+              let venue;
+              if (venueObj) {
+                venue = venueObj.name;
+              }
 
               if (none) {
                 setNone(false);
               }
 
-              return <EventCard register key={event.id} name={name} logo={logo} url={url} date={start} />;
+              return (
+                <EventCard
+                  register
+                  key={event.id}
+                  venue={venue}
+                  name={name}
+                  logo={logo}
+                  url={url}
+                  date={dateFormatted}
+                />
+              );
             }
             return null;
           })}

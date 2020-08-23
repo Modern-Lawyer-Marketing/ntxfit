@@ -11,22 +11,19 @@ import About from '../components/Events/About';
  */
 const Events = () => {
   const [events, setEvents] = useState();
+  const [venues, setVenues] = useState();
   const [tab, setTab] = useState('upcoming');
 
   useEffect(() => {
-    const request = new XMLHttpRequest();
+    // Get events
+    fetch(`https://www.eventbriteapi.com/v3/organizations/${process.env.REACT_APP_ORGANIZATION_ID}/events/?token=${process.env.REACT_APP_EVENTBRITE_TOKEN}`)
+      .then((response) => response.json())
+      .then((data) => setEvents(data.events.reverse()));
 
-    request.open('GET', `https://www.eventbriteapi.com/v3/organizations/${process.env.REACT_APP_ORGANIZATION_ID}/events/`);
-
-    request.setRequestHeader('Authorization', `Bearer ${process.env.REACT_APP_EVENTBRITE_TOKEN}`);
-
-    request.onreadystatechange = function () {
-      if (this.readyState === 4 && this.status === 200) {
-        setEvents(JSON.parse(this.responseText).events.reverse());
-      }
-    };
-
-    request.send();
+    // Get venues
+    fetch(`https://www.eventbriteapi.com/v3/organizations/${process.env.REACT_APP_ORGANIZATION_ID}/venues/?token=${process.env.REACT_APP_EVENTBRITE_TOKEN}`)
+      .then((response) => response.json())
+      .then((data) => setVenues(data.venues));
   }, []);
 
   return (
@@ -36,8 +33,8 @@ const Events = () => {
       </Header>
       <About />
       <Navigation setTab={setTab} tab={tab} />
-      {tab === 'upcoming' && <UpcomingEvents events={events} />}
-      {tab === 'past' && <PastEvents events={events} />}
+      {tab === 'upcoming' && <UpcomingEvents venues={venues} events={events} />}
+      {tab === 'past' && <PastEvents venues={venues} events={events} />}
     </div>
   );
 };

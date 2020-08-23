@@ -5,7 +5,7 @@ import useWindowDimensions from '../../lib/useWindowDimensions';
 /**
  * Lists upcoming events for NTXFIT
  */
-const EventCard = ({ name, url, date, logo, register }) => {
+const EventCard = ({ name, url, date, logo, register, venue }) => {
   const { isMobile } = useWindowDimensions();
 
   return (
@@ -15,6 +15,7 @@ const EventCard = ({ name, url, date, logo, register }) => {
         <div>
           <p className="date">{date}</p>
           <h3>{name}</h3>
+          <p className="venue">{venue}</p>
         </div>
         <a href={url} target="_blank" rel="noopener noreferrer">{register ? 'Register for event' : 'View event'}</a>
       </div>
