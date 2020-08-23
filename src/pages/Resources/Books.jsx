@@ -9,7 +9,7 @@ import About from '../../components/Resources/About';
  */
 const Books = () => (
   <div>
-    <Header short backgroundImage={require('../../images/book-staircase.jpg')} backgroundPosition="right 45%">
+    <Header short backgroundImage={require('../../images/busy-people.jpg')} backgroundPosition="center 30%">
       <h1>Resources by Members of NTXFIT</h1>
     </Header>
     <About />
