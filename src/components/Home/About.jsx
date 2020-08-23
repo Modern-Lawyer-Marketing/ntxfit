@@ -43,7 +43,7 @@ const About = () => {
         <div className="thumbnail" style={{ backgroundImage: `url(${require('../../images/pen-and-paper.jpg')})`, backgroundPosition: '70%' }} />
         <div className="content">
           <h2>Why We Created NTXFIT</h2>
-          <p>A limited number of professionals gathered to serve as resources to each other and to the professional community to contribute to the expertise in the field of family law litigation as mental health professionals.   As leaders teaching others how to do forensic work, NTXFIT continues to offer twice a year advanced trainings to encourage other mental health professionals to accept cases involving litigation.   We also encourage other professionals to form their own organizations for similar purpose as has been done by a group of professionals who formed THETAFF.</p>
+          <p>A limited number of professionals gathered to serve as resources to each other and to the professional community to contribute to the expertise in the field of family law litigation as mental health professionals.   As leaders teaching others how to do forensic work, NTXFIT continues to offer twice a year advanced trainings to encourage other mental health professionals to accept cases involving litigation.   We also encourage other professionals to form their own organizations for similar purpose as has been done by a group of professionals who formed <a href="https://www.thetaff.com/" target="_blank" rel="noopener noreferrer">The Texas Association of Family Forensics (TAFF)</a>.</p>
         </div>
       </div>
     </div>

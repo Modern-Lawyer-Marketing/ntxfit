@@ -1,6 +1,7 @@
 @import '../constants';
 
 .member-card {
+  align-items: center;
   background: $charcoal-300;
   border-radius: 4px;
   box-sizing: border-box;
@@ -10,6 +11,7 @@
 
   .content {
     font-size: 14px;
+    width: 100%;
 
     h3 {
       font-size: 18px;

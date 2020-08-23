@@ -17,11 +17,11 @@ const PastEvents = ({ events }) => {
         <SectionBox>
           {events && events.map((event) => {
             const date = moment(new Date(event.start.local));
-            if (date.isBefore()) {
+            if (date.isBefore() && event.status !== 'canceled') {
               const name = event.name.text;
               const logo = event.logo.url;
               const url = event.url;
-              const fromNow = date.fromNow().toUpperCase();
+              const fromNow = date.format('MMMM Do, YYYY');
 
               return <EventCard key={event.id} name={name} logo={logo} url={url} date={fromNow} />;
             }
