@@ -8,7 +8,7 @@ import Header from '../../components/Header';
  */
 const HandoutsProfessionals = () => (
   <div>
-    <Header short backgroundImage={require('../../images/coffee-and-books.jpg')} backgroundPosition="center">
+    <Header short backgroundImage={require('../../images/group.jpg')} backgroundPosition="center 35%">
       <h1>Handouts for Professionals</h1>
     </Header>
     <div className="resources-content content-item">
