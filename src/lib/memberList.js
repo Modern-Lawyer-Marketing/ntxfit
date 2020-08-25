@@ -128,7 +128,7 @@ const memberList = [
     license:  'Licensed Professional Counselor and Supervisor',
     website:  'Jennifercounseling.com',
     email:    null,
-    phone:    '469-828-4602',
+    phone:    '469-828-4603',
     services: [
       'Court-Ordered Therapy',
       'Reunification Therapy',
