@@ -113,9 +113,9 @@ const memberList = [
     name:     'Steven E “Jake” Jacobson',
     image:    require('../images/headshots/jake-jacobson.jpg'),
     license:  ['Licensed Clinical Social Worker'],
-    website:  null,
-    email:    null,
-    phone:    null,
+    website:  'ccdcounseling.com',
+    email:    'jake@ccdcounseling.com',
+    phone:    '940-314-3444',
     services: [
       'Mediation',
       'Parenting Plan Design/Consultation',
