@@ -113,7 +113,7 @@ const memberList = [
     name:     'Steven E “Jake” Jacobson',
     image:    require('../images/headshots/jake-jacobson.jpg'),
     license:  ['Licensed Clinical Social Worker'],
-    website:  'ccdcounseling.com',
+    website:  ['ccdcounseling.com'],
     email:    'jake@ccdcounseling.com',
     phone:    '940-314-3444',
     services: [
@@ -143,7 +143,7 @@ const memberList = [
   },
   {
     name:     'Jane Phillips, Ph.D., LCSW-S',
-    image:    null,
+    image:    require('../images/headshots/jane-philips.jpeg'),
     license:  null,
     website:  ['drjanephillips.com'],
     email:    'janephillips@drjanephillips.com',
