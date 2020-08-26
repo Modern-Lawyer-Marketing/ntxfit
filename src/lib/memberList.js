@@ -160,7 +160,7 @@ const memberList = [
     name:     'Aaron Robb, Ph.D., LPC-S',
     image:    require('../images/headshots/aaron-robb.png'),
     license:  ['Licensed Professional Counselor-Supervisor'],
-    website:  ['www.TexasCounseling.org'],
+    website:  ['TexasCounseling.org'],
     email:    null,
     phone:    '972-360-7437',
     services: [
