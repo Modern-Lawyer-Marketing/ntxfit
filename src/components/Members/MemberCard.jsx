@@ -9,8 +9,8 @@ const MemberCard = ({ name, image, license, email, website, phone, services }) =
     <div className="image" style={{ backgroundImage: `url(${image})` }} />
     <div className="content">
       {name && <h3>{name}</h3>}
-      {license && <p>{license}</p>}
-      {website && <p><a target="_blank" rel="noopener noreferrer" href={`http://${website}`}>{website}</a></p>}
+      {license && license.map((val, i) => (<p key={val + i}>{license[i]}</p>))}
+      {website && website.map((val, i) => (<p key={val + i}><a target="_blank" rel="noopener noreferrer" href={`http://${website[i]}`}>{website[i]}</a></p>))}
       {email && <p><a href={`mailto:${email}(${name})`}>{email}</a></p>}
       {phone && <p>Phone: <a href={`tel:${phone.replace(/[-\s]/g, '')}`}>{phone}</a></p>}
       {services && (

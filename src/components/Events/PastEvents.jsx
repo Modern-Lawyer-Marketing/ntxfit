@@ -23,21 +23,24 @@ const PastEvents = ({ events, venues }) => {
               const url = event.url;
               const dateFormatted = date.format('MMMM Do, YYYY');
               const venueObj = venues.find(({ id }) => id === event.venue_id);
+              const id = event.id;
               let venue;
               if (venueObj) {
                 venue = venueObj.name;
               }
 
-              return (
-                <EventCard
-                  key={event.id}
-                  name={name}
-                  venue={venue}
-                  logo={logo}
-                  url={url}
-                  date={dateFormatted}
-                />
-              );
+              if (id !== '') {
+                return (
+                  <EventCard
+                    key={id}
+                    name={name}
+                    venue={venue}
+                    logo={logo}
+                    url={url}
+                    date={dateFormatted}
+                  />
+                );
+              }
             }
             return null;
           })}
