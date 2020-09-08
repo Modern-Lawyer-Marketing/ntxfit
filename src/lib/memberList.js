@@ -150,7 +150,7 @@ const memberList = [
     phone:    '682-225-6990',
     services: [
       'Court Ordered Therapy',
-      'Pre-divorce Parent Consultation',
+      'Pre-Divorce Parent Consultation',
       'Co-Parent Education',
       'Reunification Therapy',
       'Expert Witness',
