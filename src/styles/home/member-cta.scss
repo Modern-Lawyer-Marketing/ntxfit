@@ -16,13 +16,14 @@
     div {
       align-items: center;
       display: flex;
+      flex-flow: column;
       justify-content: center;
       width: 100%;
     }
 
     p {
       color: $charcoal-700;
-      max-width: 550px;
+      max-width: 800px;
       padding: 15px 0;
       text-align: center;
     }

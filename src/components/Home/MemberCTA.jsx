@@ -10,7 +10,8 @@ const MemberCTA = () => (
       <h2>Who We Are</h2>
       <div>
         {/* eslint-disable-next-line max-len */}
-        <p>North Texas Families in Transition (NTXFIT) includes mental health professionals, mediators, educators, and other support providers.</p>
+        <p>The North Texas Families in Transition Professionals Workgroup is a volunteer organization of independent licensed professionals who practice around the metroplex.</p>
+        <p>Our members specialize in working with families dealing with separation, divorce, co-parenting, and other situations involving raising children between multiple homes. The group includes mental health professionals, mediators, educators, and other support providers.</p>
       </div>
     </div>
   </div>
