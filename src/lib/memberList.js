@@ -91,7 +91,7 @@ const memberList = [
       'Expert Witness',
       'Play Therapy',
       'Family Therapy',
-      'Co-parenting Support and Education',
+      'Co-Parenting Support and Education',
     ],
   },
   {
@@ -106,7 +106,7 @@ const memberList = [
       'Child Custody Evaluations',
       'Court Ordered Therapy',
       'Expert Witness',
-      'Forensic Consultation',
+      'Forensic Consultant',
     ],
   },
   {
@@ -151,7 +151,7 @@ const memberList = [
     services: [
       'Court Ordered Therapy',
       'Pre-divorce Parent Consultation',
-      'Co-parent Education',
+      'Co-Parent Education',
       'Reunification Therapy',
       'Expert Witness',
       'Forensic Consultant',
@@ -165,8 +165,8 @@ const memberList = [
     email:    null,
     phone:    '972-360-7437',
     services: [
-      'Child Custody Evaluation',
-      'Adoption Assessment',
+      'Child Custody Evaluations',
+      'Adoption Evaluations',
       'Guardian Ad Litem Appointments',
       'Adult & Family Therapy',
       'Parenting Facilitation',
