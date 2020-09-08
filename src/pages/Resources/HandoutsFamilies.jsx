@@ -14,16 +14,16 @@ const HandoutsFamilies = () => (
     <div className="resources-content content-item">
       <SectionBox>
         <ul>
-          <li><a href="https://www.afccnet.org/Portals/0/Representing%20Yourself%20Judges%20Perspective.pdf" target="_blank" rel="noopener noreferrer">Representing Yourself in Court: A Brief Guide from a Judge's Perspective</a> by AFCC</li>
-          <li><a href="https://www.afccnet.org/Portals/0/Representing%20Yourself%20Mediation.pdf" target="_blank" rel="noopener noreferrer">A Brief Guide to Family Mediation for Parents who are Self-Represented</a> by AFCC</li>
-          <li><a href="https://www.afccnet.org/Portals/0/Center%20for%20Excellance/A%20Guide%20for%20Consumers.pdf?ver=2015-10-26-135032-000" target="_blank" rel="noopener noreferrer">Unbundling Legal Services: A Guide for Parents Seeking Affordable Legal Assistance in Family Separation Cases</a> by AFCC</li>
-          <li><a href="http://www.uptoparents.org/" target="_blank" rel="noopener noreferrer">UpToParents.org</a> by AFCC</li>
-          <li><a href="http://www.familieschange.ca/" target="_blank" rel="noopener noreferrer">Familieschange.ca</a> by AFCC</li>
-          <li><a href="https://www.afccnet.org/Portals/0/PDF/AzAFCC%20Coparenting%20Communication%20Guide.pdf" target="_blank" rel="noopener noreferrer">Co-Parenting Communication Guide</a> by AFCC</li>
-          <li><a href="https://www.afccnet.org/LinkClick.aspx?fileticket=NTHeB-LRnw0%3d&tabid=133&portalid=0&mid=815" target="_blank" rel="noopener noreferrer">Parenting Plan Guide</a> by AFCC</li>
-          <li><a href="https://www.afccnet.org/LinkClick.aspx?fileticket=EjftiZ6razs%3d&tabid=133&portalid=0&mid=815" target="_blank" rel="noopener noreferrer">Parenting Plan Template</a> by AFCC</li>
-          <li><a href="https://www.afccnet.org/LinkClick.aspx?fileticket=D6sRSjcXjak%3d&tabid=133&portalid=0&mid=815" target="_blank" rel="noopener noreferrer">Child-Focused Parenting Time Guide</a> by AFCC</li>
-          <li><a href="https://www.azcourts.gov/portals/31/parentingTime/PPWguidelines.pdf" target="_blank" rel="noopener noreferrer">Planning for Parenting Time</a> by AFCC</li>
+          <li><a href="https://www.afccnet.org/Portals/0/Representing%20Yourself%20Judges%20Perspective.pdf" target="_blank" rel="noopener noreferrer">Representing Yourself in Court: A Brief Guide from a Judge's Perspective</a> (AFCC)</li>
+          <li><a href="https://www.afccnet.org/Portals/0/Representing%20Yourself%20Mediation.pdf" target="_blank" rel="noopener noreferrer">A Brief Guide to Family Mediation for Parents who are Self-Represented</a> (AFCC)</li>
+          <li><a href="https://www.afccnet.org/Portals/0/Center%20for%20Excellance/A%20Guide%20for%20Consumers.pdf?ver=2015-10-26-135032-000" target="_blank" rel="noopener noreferrer">Unbundling Legal Services: A Guide for Parents Seeking Affordable Legal Assistance in Family Separation Cases</a> (AFCC)</li>
+          <li><a href="http://www.uptoparents.org/" target="_blank" rel="noopener noreferrer">UpToParents.org</a> (AFCC)</li>
+          <li><a href="http://www.familieschange.ca/" target="_blank" rel="noopener noreferrer">Familieschange.ca</a> (AFCC)</li>
+          <li><a href="https://www.afccnet.org/Portals/0/PDF/AzAFCC%20Coparenting%20Communication%20Guide.pdf" target="_blank" rel="noopener noreferrer">Co-Parenting Communication Guide</a> (AFCC)</li>
+          <li><a href="https://www.afccnet.org/LinkClick.aspx?fileticket=NTHeB-LRnw0%3d&tabid=133&portalid=0&mid=815" target="_blank" rel="noopener noreferrer">Parenting Plan Guide</a> (AFCC)</li>
+          <li><a href="https://www.afccnet.org/LinkClick.aspx?fileticket=EjftiZ6razs%3d&tabid=133&portalid=0&mid=815" target="_blank" rel="noopener noreferrer">Parenting Plan Template</a> (AFCC)</li>
+          <li><a href="https://www.afccnet.org/LinkClick.aspx?fileticket=D6sRSjcXjak%3d&tabid=133&portalid=0&mid=815" target="_blank" rel="noopener noreferrer">Child-Focused Parenting Time Guide</a> (AFCC)</li>
+          <li><a href="https://www.azcourts.gov/portals/31/parentingTime/PPWguidelines.pdf" target="_blank" rel="noopener noreferrer">Planning for Parenting Time</a> (AFCC)</li>
           <li><a href="http://www.mass.gov/courts/docs/courts-and-judges/courts/probate-and-family-court/afccsharedparenting.pdf" target="_blank" rel="noopener noreferrer">Planning for Shared Parenting</a> (AFCC)</li>
           <li><a href="https://www.afccnet.org/Resource-Center/Resources-for-Families/ctl/ViewPamphlet/PamphletID/1/mid/860" target="_blank" rel="noopener noreferrer">FAQs Parents Ask about Separation, Divorce and Child Custody</a> (AFCC)</li>
           <li><a href="https://www.afccnet.org/Resource-Center/Resources-for-Families/ctl/ViewPamphlet/PamphletID/2/mid/860" target="_blank" rel="noopener noreferrer">FAQs Separating and Divorcing Parents Ask about Legal Matters</a> (AFCC)</li>
