@@ -1,6 +1,6 @@
 const memberList = [
   {
-    name:    'Carrie Beaird',
+    name:    'Carrie Beaird, LPC-S, LCDC',
     image:   require('../images/headshots/carrie-beaird.jpg'),
     license: [
       'Licensed Professional Counselor-Supervisor',
@@ -10,7 +10,7 @@ const memberList = [
     email:    'cbcparenting@aol.com',
     phone:    '972-448-8797',
     services: [
-      'Parent Facilitation',
+      'Parenting Facilitation',
       'Parent Coordination',
       'Court Ordered Therapy',
       'Reunification Therapy',
@@ -40,7 +40,7 @@ const memberList = [
     email:    'hduke@lewisvillecounselingservices.com',
     phone:    '469-645-1375',
     services: [
-      'Court-Ordered Therapy',
+      'Court Ordered Therapy',
       'Individual Therapy (ages 10 and up)',
       'Family Therapy',
       'Co-Parenting Support and Education',
@@ -60,7 +60,7 @@ const memberList = [
       'Expert Witness',
       'Forensic Consultant',
       'Reunification Therapy',
-      'Court-Ordered Therapy',
+      'Court Ordered Therapy',
     ],
   },
   {
@@ -80,14 +80,14 @@ const memberList = [
     ],
   },
   {
-    name:     'Gina Galloway, Ph.D., LPCS',
+    name:     'Gina Galloway, Ph.D., LPC-S',
     image:    require('../images/headshots/gina-galloway.jpeg'),
     license:  ['Licensed Professional Counselor-Supervisor'],
     website:  ['gallowaycounseling.com'],
     email:    'gina@ginagalloway.com',
     phone:    '817-932-3105',
     services: [
-      'Court-ordered Therapy',
+      'Court Ordered Therapy',
       'Expert Witness',
       'Play Therapy',
       'Family Therapy',
@@ -104,7 +104,7 @@ const memberList = [
     services: [
       'Psychological Evaluations',
       'Child Custody Evaluations',
-      'Court-Ordered Therapy',
+      'Court Ordered Therapy',
       'Expert Witness',
       'Forensic Consultation',
     ],
@@ -125,18 +125,18 @@ const memberList = [
     ],
   },
   {
-    name:     'Jennifer Leister, LPCS',
+    name:     'Jennifer Leister, LPC-S',
     image:    require('../images/headshots/jennifer-leister.jpg'),
     license:  ['Licensed Professional Counselor-Supervisor'],
     website:  ['Jennifercounseling.com'],
     email:    null,
     phone:    '469-828-4603',
     services: [
-      'Court-Ordered Therapy',
+      'Court Ordered Therapy',
       'Reunification Therapy',
       'Collaborative Law-MHP and CS',
       'Parent Coordination',
-      'Parent Facilitation',
+      'Parenting Facilitation',
       'Expert Witness',
       'Forensic Consultant',
     ],
@@ -144,12 +144,12 @@ const memberList = [
   {
     name:     'Jane Phillips, Ph.D., LCSW-S',
     image:    require('../images/headshots/jane-philips.jpeg'),
-    license:  null,
+    license:  ['Licensed Clinical Social Worker-Supervisor'],
     website:  ['drjanephillips.com'],
     email:    'janephillips@drjanephillips.com',
     phone:    '682-225-6990',
     services: [
-      'Court-ordered Counseling',
+      'Court Ordered Therapy',
       'Pre-divorce Parent Consultation',
       'Co-parent Education',
       'Reunification Therapy',

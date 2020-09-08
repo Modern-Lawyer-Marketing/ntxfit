@@ -14,7 +14,7 @@ const About = () => {
       <div className={`section ${isMobile ? 'mobile' : ''}`}>
         <div className="thumbnail" style={{ backgroundImage: `url(${require('../../images/raincoats.jpg')})`, backgroundPosition: 'center 75%' }} />
         <div className="content">
-          <h2>We Value Families</h2>
+          <h2>Supporting Families in Transition</h2>
           <p>As professionals working with families, we know it is difficult for parents and children during separation and divorce.  Each professional in North Texas Families in Transition (NTXFIT) is an expert in parent functioning and the emotional functioning of parents and children.  Each professional in NTXFIT is an independent practitioner who relies on relevant research and best practices and standards specializing in serving different roles to benefit families that include:</p>
           <ul>
             <li>Child Custody Evaluations</li>
@@ -43,7 +43,7 @@ const About = () => {
         <div className="thumbnail" style={{ backgroundImage: `url(${require('../../images/pen-and-paper.jpg')})`, backgroundPosition: '70%' }} />
         <div className="content">
           <h2>Why We Created NTXFIT</h2>
-          <p>A limited number of professionals gathered to serve as resources to each other and to the professional community to contribute to the expertise in the field of family law litigation as mental health professionals.   As leaders teaching others how to do forensic work, NTXFIT continues to offer twice a year advanced trainings to encourage other mental health professionals to accept cases involving litigation.   We also encourage other professionals to form their own organizations for similar purpose as has been done by a group of professionals who formed <a href="https://www.thetaff.com/" target="_blank" rel="noopener noreferrer">The Texas Association of Family Forensics (TAFF)</a>.</p>
+          <p>A limited number of professionals gathered to serve as resources to each other and to the professional community to contribute to the expertise in the field of family law litigation as mental health professionals.   As leaders teaching others how to do forensic work, NTXFIT continues to offer twice a year advanced trainings to encourage other mental health professionals to accept cases involving litigation.   We also encourage other professionals to form their own organizations for similar purposes.</p>
         </div>
       </div>
     </div>
