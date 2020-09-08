@@ -31,7 +31,7 @@ const About = () => {
         <div className="thumbnail" style={{ backgroundImage: `url(${require('../../images/pen-and-paper.jpg')})`, backgroundPosition: '70%' }} />
         <div className="content">
           <h2>Why We Created NTXFIT</h2>
-          <p>Professionals often encounter unique challenges when legal and behavioral health issues intersect. Our goal is to serve as an interdisciplinary resource while encouraging healthy family systems. We host various “lunch-and-learn” meetings and more formal seminars, both of which are open to all professionals working with the family courts.</p>
+          <p>Professionals often encounter unique challenges when legal and behavioral health issues intersect. Our goal is to serve as an interdisciplinary resource while encouraging healthy family systems. As leaders teaching others how to do forensic work, NTXFIT continues to host various “lunch-and-learn” meetings and more formal seminars, both of which are open to all professionals working with family courts.</p>
         </div>
       </div>
     </div>
