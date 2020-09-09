@@ -22,7 +22,7 @@ const App = () => (
     <div className="app">
       <Navbar />
       <Switch>
-        <Route path="/who-we-are">
+        <Route path="/about-us">
           <Members />
         </Route>
         <Route path="/events">

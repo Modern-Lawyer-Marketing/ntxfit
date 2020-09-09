@@ -9,7 +9,7 @@ import About from '../components/Members/About';
 const Members = () => (
   <div className="members">
     <Header short backgroundImage={require('../images/girl-binoculars.jpg')} backgroundPosition="center 40%">
-      <h1>Who We Are</h1>
+      <h1>The Members of NTXFIT</h1>
     </Header>
     <About />
     <MemberGrid />

@@ -1,0 +1,8 @@
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+
+Redirect 301 /Events.html /events
+Redirect 301 /Members.html /about-us
+Redirect 301 /Resources.html /resources/books-and-articles-by-members-of-ntxfit

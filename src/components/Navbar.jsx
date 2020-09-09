@@ -117,9 +117,9 @@ const NavItems = ({ path, setOpen, open, hamburger }) => {
           <div className="line" />
         </li>
       </Link>
-      <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/who-we-are">
-        <li className={path === '/who-we-are' ? 'active' : ''}>
-          <p>Who We Are</p>
+      <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/about-us">
+        <li className={path === '/about-us' ? 'active' : ''}>
+          <p>About Us</p>
           <div className="line" />
         </li>
       </Link>
