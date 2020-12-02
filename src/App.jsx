@@ -37,7 +37,7 @@ const App = () => (
         <Route path="/resources/handouts-for-professionals">
           <HandoutsProfessionals />
         </Route>
-        <Route path="/resources/handouts-for-families">
+        <Route path="/resources/resources-for-families">
           <HandoutsFamilies />
         </Route>
         <Route path="/">
