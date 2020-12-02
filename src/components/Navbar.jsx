@@ -170,9 +170,9 @@ const ResourceMenu = ({ open, hamburger, dropdownRef, onClickLink }) => (
         <p>Handouts for Professionals</p>
       </li>
     </Link>
-    <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/handouts-for-families">
+    <Link onClick={onClickLink} tabIndex={!open && hamburger ? '-1' : null} to="/resources/resources-for-families">
       <li>
-        <p>Handouts for Families</p>
+        <p>Resources for Families</p>
       </li>
     </Link>
   </ul>
