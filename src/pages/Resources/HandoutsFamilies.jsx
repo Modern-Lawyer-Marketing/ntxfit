@@ -9,7 +9,7 @@ import Header from '../../components/Header';
 const HandoutsFamilies = () => (
   <div>
     <Header short backgroundImage={require('../../images/families.jpg')} backgroundPosition="center 60%">
-      <h1>Handouts for Families</h1>
+      <h1>Resources for Families</h1>
     </Header>
     <div className="resources-content content-item">
       <SectionBox>
