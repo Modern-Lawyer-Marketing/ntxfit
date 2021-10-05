@@ -125,23 +125,6 @@ const memberList = [
     ],
   },
   {
-    name:     'Jennifer Leister, LPC-S',
-    image:    require('../images/headshots/jennifer-leister.jpg'),
-    license:  ['Licensed Professional Counselor-Supervisor'],
-    website:  ['Jennifercounseling.com'],
-    email:    null,
-    phone:    '469-828-4603',
-    services: [
-      'Court Ordered Therapy',
-      'Reunification Therapy',
-      'Collaborative Law-MHP and CS',
-      'Parent Coordination',
-      'Parenting Facilitation',
-      'Expert Witness',
-      'Forensic Consultant',
-    ],
-  },
-  {
     name:     'Jane Phillips, Ph.D., LCSW-S',
     image:    require('../images/headshots/jane-philips.jpeg'),
     license:  ['Licensed Clinical Social Worker-Supervisor'],
