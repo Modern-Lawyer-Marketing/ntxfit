@@ -34,7 +34,7 @@ const memberList = [
   },
   {
     name:     'Holly Winter Duke, MS, LPC, NCC',
-    image:    null,
+    image:    require('../images/headshots/holly-winter.jpg'),
     license:  ['Licensed Professional Counselor'],
     website:  ['lewisvillecounselingservices.com'],
     email:    'hduke@lewisvillecounselingservices.com',
