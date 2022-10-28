@@ -5,7 +5,7 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  
+
   .section {
     display: flex;
 
@@ -22,6 +22,7 @@
       h2 {
         font-size: 32px;
         margin-bottom: 15px;
+        color: $blue;
       }
 
       ul {
@@ -30,10 +31,10 @@
         margin-top: 15px;
       }
     }
-    
+
     &.flip {
       flex-flow: row-reverse;
-      
+
       .thumbnail {
         margin-left: 30px;
         margin-right: 0;

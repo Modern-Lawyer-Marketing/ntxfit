@@ -7,7 +7,7 @@ import useWindowDimensions from '../lib/useWindowDimensions';
  * Navigation bar
  */
 const Navbar = ({ location }) => {
-  const { isMobile } = useWindowDimensions();
+  const { isMobile, width } = useWindowDimensions();
   const [open, setOpen] = useState(false);
   const hamburgerMenu = useRef();
   const hamburger = useRef();
@@ -43,7 +43,9 @@ const Navbar = ({ location }) => {
 
   return (
     <div id="navbar" className={open ? 'open' : ''}>
-      <a className="logo" href="/"><h2>NTXFIT</h2></a>
+      <a className="logo" href="/">
+        <img src={width < 400 ? require('../images/logo.png') : require('../images/logo-horizontal.png')} alt="NTXFIT Logo" />
+      </a>
       {isMobile
         ? <Hamburger hamburger={hamburger} open={open} setOpen={setOpen} />
         : <NavItems path={path} setOpen={setOpen} />}

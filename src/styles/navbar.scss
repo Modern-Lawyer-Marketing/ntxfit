@@ -9,7 +9,7 @@
   height: $nav-height;
   justify-content: space-between;
   left: 0;
-  padding: 0 50px;
+  padding: 0 30px;
   position: fixed;
   top: 0;
   transition: left 200ms;
@@ -23,10 +23,14 @@
   .logo {
     align-items: center;
     display: flex;
-    padding: 0 12px;
+    position: 'relative';
 
     h2 {
       color: $blue;
+    }
+
+    img {
+      height: calc($nav-height - 10px);
     }
   }
 
@@ -35,7 +39,7 @@
     height: 100%;
     text-decoration: none;
   }
-    
+
   #nav-items {
     align-items: center;
     display: flex;
@@ -63,7 +67,7 @@
       justify-content: center;
       list-style: none;
       padding: 0 20px;
-  
+
       .line {
         background: $charcoal-700;
         height: 1px;
@@ -71,13 +75,13 @@
         transition: opacity 250ms;
         width: 100%;
       }
-  
+
       span {
         display: inline-block;
         margin-right: -3px;
         position: relative;
         top: -3px;
-        
+
         &.rotate {
           margin-left: -3px;
           margin-right: 0;
@@ -93,7 +97,7 @@
           opacity: 0.5;
         }
       }
-  
+
       &:first-of-type {
         margin-left: 0;
       }
@@ -125,15 +129,15 @@
           opacity: 0;
           transform: translateX(-15px);
           width: 0;
-        } 
+        }
 
         &:nth-child(1) {
           transform: translateY(10px) rotate(-45deg);
         }
-        
+
         &:nth-child(3) {
           transform: translateY(-10px) rotate(-135deg);
-        } 
+        }
       }
     }
   }
@@ -147,7 +151,7 @@
     top: 0;
     transition: clip 200ms;
     width: $hamburger-menu-width;
-    
+
     &.open {
       clip: rect(0, $hamburger-menu-width, 100vh, 0);
     }
@@ -184,7 +188,7 @@
   overflow: hidden;
   padding: 6px 0;
   position: fixed;
-  right: 50px;
+  right: 30px;
   top: $nav-height - 10px;
 
   a {
@@ -214,7 +218,7 @@
     right: 30px;
     top: 300px;
 
-    
+
     a {
       text-align: right;
 
