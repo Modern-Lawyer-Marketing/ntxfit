@@ -30,7 +30,7 @@
     }
 
     img {
-      height: calc($nav-height - 10px);
+      height: calc(#{$nav-height} - 10px);
     }
   }
 
