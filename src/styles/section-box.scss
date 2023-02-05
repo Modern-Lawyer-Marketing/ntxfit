@@ -10,7 +10,7 @@
     background: $charcoal-300;
     border-radius: 4px;
     max-width: $content-max-width;
-    padding: 60px 80px;
+    padding: 40px 40px;
     width: $content-width;
 
     &.center {
@@ -23,7 +23,7 @@
 
   &.mobile {
     .box {
-      padding: 60px 30px;
+      padding: 40px 30px;
     }
   }
 }
