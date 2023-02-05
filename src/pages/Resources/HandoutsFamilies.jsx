@@ -34,7 +34,7 @@ const HandoutsFamilies = () => (
         </ul>
       </SectionBox>
       <SectionBox>
-        <h2>Valuable Resources from Our Community</h2>
+        <h2>Valuable Resources from our Local Community</h2>
         <ul>
           <li><a href="http://www.childreninthemiddle.com/about.htm" target="_blank" rel="noopener noreferrer">Between Two Homes</a> by Bradley Craig, LMSW-IPR, CFLE</li>
           <li><a href="https://www.amazon.com/Considering-Divorce-Critical-Things-Need/dp/1491700084/ref=sr_1_2?qid=1675618370&refinements=p_27:Melinda+Eitzen&s=books&sr=1-2&text=Melinda+Eitzen" target="_blank" rel="noopener noreferrer">Considering Divorce?</a> by Melinda Eitzen, JD, Joanna Jadlow, CPA & Brenda Lee Roberts, LPC</li>
@@ -47,7 +47,7 @@ const HandoutsFamilies = () => (
         </ul>
       </SectionBox>
       <SectionBox>
-        <h2>Valuable Material from AFCC</h2>
+        <h2>Valuable Materials from AFCC</h2>
         <ul>
           <li><a href="https://www.afccnet.org/Resource-Center/Family-Resources/FAQs-Parents-Ask-about-Separation-Divorce-and-Child-Custody" target="_blank" rel="noopener noreferrer">FAQs Parents Ask about Separation, Divorce and Child Custody</a> by AFCC</li>
           <li><a href="https://www.afccnet.org/Resource-Center/Family-Resources/FAQs-Separating-and-Divorcing-Parents-Ask-about-Legal-Matters" target="_blank" rel="noopener noreferrer">FAQs Separating and Divorcing Parents Ask about Legal Matters</a> by AFCC</li>
