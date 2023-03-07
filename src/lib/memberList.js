@@ -157,6 +157,19 @@ const memberList = [
       'Forensic Consultant',
     ],
   },
+  {
+    name:     'Kristina Vellucci-Cook, Psy.D.',
+    image:    require('../images/headshots/kristina-vellucci-cook.jpeg'),
+    license:  ['Licensed Psychologist (California & Texas)', 'Licensed Marriage and Family Therapist (California)'],
+    website:  null,
+    email:    'kvelluccipsyd@gmail.com',
+    phone:    '714-457-6007',
+    services: [
+      'Forensic Consultant',
+      'Psychological Evaluations',
+      'Child Custody Evaluations (Under Supervision)',
+    ],
+  },
 ];
 
 export default memberList;
