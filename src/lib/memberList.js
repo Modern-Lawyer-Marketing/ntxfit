@@ -56,11 +56,10 @@ const memberList = [
     services: [
       'Child Custody Evaluations',
       'Psychological Evaluations',
-      'Reviewing Testifying Expert',
-      'Expert Witness',
-      'Forensic Consultant',
+      'Work Product Reviews',
+      'Testifying Expert',
+      'Forensic Consultations',
       'Reunification Therapy',
-      'Court Ordered Therapy',
     ],
   },
   {
@@ -161,8 +160,8 @@ const memberList = [
     name:     'Kristina Vellucci-Cook, Psy.D.',
     image:    require('../images/headshots/kristina-vellucci-cook.jpeg'),
     license:  ['Licensed Psychologist (California & Texas)', 'Licensed Marriage and Family Therapist (California)'],
-    website:  null,
-    email:    'kvelluccipsyd@gmail.com',
+    website:  ['drkvcook.com'],
+    email:    'kristina@drkvcook.com',
     phone:    '714-457-6007',
     services: [
       'Forensic Consultant',
