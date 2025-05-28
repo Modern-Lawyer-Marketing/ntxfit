@@ -33,6 +33,22 @@ const memberList = [
     ],
   },
   {
+    name:     'Emily Dixon, Psy.D., LSOTP',
+    image:    require('../images/headshots/emily-dixon.jpeg'),
+    license:  ['Licensed Psychologist (Texas & California)', 'PSYPACT Mobility #14544', 'Licensed Sex Offender Treatment Provider'],
+    website:  ['dixonpsychologicalservices.com'],
+    email:    'drdixon@dps-act.com',
+    phone:    '682-393-8212',
+    services: [
+      'Psychological Evaluations',
+      'Forensic Psychological Evaluations',
+      'Court-Ordered Therapy for Sexual Deviant Behavior',
+      'Expert Witness',
+      'Forensic Consultant',
+      'Child Custody Evaluations (Under Supervision)',
+    ],
+  },
+  {
     name:     'Holly Winter Duke, MS, LPC, NCC',
     image:    require('../images/headshots/holly-winter.jpg'),
     license:  ['Licensed Professional Counselor'],
@@ -49,7 +65,7 @@ const memberList = [
   {
     name:     'Susan Fletcher, Ph.D.',
     image:    require('../images/headshots/susan-fletcher.jpeg'),
-    license:  ['Licensed Psychologist'],
+    license:  ['Licensed Psychologist (Texas & Colorado)', 'PSYPACT Mobility #5875'],
     website:  ['FletcherPhD.com'],
     email:    'DrFletcher@FletcherPhD.com',
     phone:    '972-612-1188',
