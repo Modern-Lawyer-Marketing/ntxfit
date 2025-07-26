@@ -2,7 +2,7 @@
 
 Website for North Texas Families In Transition professional workgroup. Built with [ReactJS](https://16.reactjs.org/).
 
-### Getting started
+## Getting started
 
 1. Install [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
 2. Using NVM, install node version 16 with `nvm install 16`
@@ -22,7 +22,7 @@ Website for North Texas Families In Transition professional workgroup. Built wit
 - `/src/images/headshots` holds all headshots of the members
 - `/src/lib/memberList.js` holds all active members and their information
 
-### Deploy
+## Deploy
 
 1. Log in to the server with [FileZilla](https://filezilla-project.org/), or whatever FTP solution you're using.
 2. Ensure you are on node version 16 with `node --version`
