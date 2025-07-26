@@ -13,7 +13,7 @@ Website for North Texas Families In Transition professional workgroup. Built wit
 
 ## Running locally
 
-1. Run `npm run dev`
+1. Run `npm run start`
 2. Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Notable directories
