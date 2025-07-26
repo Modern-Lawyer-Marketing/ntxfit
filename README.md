@@ -1,6 +1,26 @@
 # NTXFIT
 
-Website for North Texas Families In Transition professional workgroup.
+Website for North Texas Families In Transition professional workgroup. Built with [ReactJS](https://16.reactjs.org/).
+
+### Getting started
+
+1. Install [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
+2. Using NVM, install node version 16 with `nvm install 16`
+3. Run `nvm use 16`
+4. Clone this repository using git, or download it to your computer
+5. Open your terminal and navigate to the cloned/downloaded directory. You should be in the root folder where the `package.json` exists.
+6. Run `npm run install`
+
+## Running locally
+
+1. Run `npm run dev`
+2. Navigate to [http://localhost:3000](http://localhost:3000)
+
+## Notable directories
+
+`/src/App.jsx` is the entry point of the react app.
+`/src/images/headshots` holds all headshots of the members
+`/src/lib/memberList.js` holds all active members and their information
 
 ### Deploy
 
