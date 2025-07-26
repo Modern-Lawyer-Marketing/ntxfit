@@ -18,9 +18,9 @@ Website for North Texas Families In Transition professional workgroup. Built wit
 
 ## Notable directories
 
-`/src/App.jsx` is the entry point of the react app.
-`/src/images/headshots` holds all headshots of the members
-`/src/lib/memberList.js` holds all active members and their information
+- `/src/App.jsx` is the entry point of the react app.
+- `/src/images/headshots` holds all headshots of the members
+- `/src/lib/memberList.js` holds all active members and their information
 
 ### Deploy
 
